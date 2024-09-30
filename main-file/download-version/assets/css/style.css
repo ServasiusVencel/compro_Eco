@@ -2459,6 +2459,13 @@ textarea.is-invalid {
   font-weight: 800;
 }
 
+.sec-title3 {
+  margin-bottom: calc(var(--section-title-space) - 43px);
+  margin-top: -0.23em;
+  font-weight: 800;
+  font-size: 25px;
+}
+
 .title-area {
   text-align: center; /* Ini sudah memastikan teks di tengah */
 }
@@ -2612,6 +2619,12 @@ textarea.is-invalid {
     line-height: 1.2;
     margin-top: 200px;
   }
+
+  .sec-title3 {
+    font-size: 20px;
+    line-height: 1.2;
+    margin-top: 10px;
+  }
   .shadow-text {
     font-size: 100px;
   }
@@ -2626,6 +2639,11 @@ textarea.is-invalid {
     font-size: 45px;
     line-height: 1.2;
     margin-top: 200px;
+  }
+  .sec-title3 {
+    font-size: 20px;
+    line-height: 1.2;
+    margin-top: 10px;
   }
   .title-area.mb-45,
   .sec-title.mb-45 {
@@ -2657,6 +2675,11 @@ textarea.is-invalid {
     line-height: 1.2;
     margin-top: 200px;
   }
+  .sec-title3 {
+    font-size: 20px;
+    line-height: 1.2;
+    margin-top: 10px;
+  }
   .title-area.mb-45,
   .sec-title.mb-45 {
     margin-bottom: 35px;
@@ -2687,6 +2710,11 @@ textarea.is-invalid {
     line-height: 1.2;
     margin-top: 200px;
   }
+  .sec-title3 {
+    font-size: 20px;
+    line-height: 1.2;
+    margin-top: 10px;
+  }
   .shadow-text {
     font-size: 50px;
   }
@@ -2705,6 +2733,11 @@ textarea.is-invalid {
     font-size: 30px;
     line-height: 1.2;
     margin-top: 200px;
+  }
+  .sec-title3 {
+    font-size: 20px;
+    line-height: 1.2;
+    margin-top: 10px;
   }
 }
 /*------------------- 3.4. Common -------------------*/
