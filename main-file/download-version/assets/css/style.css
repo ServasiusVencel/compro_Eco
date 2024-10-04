@@ -2465,6 +2465,13 @@ textarea.is-invalid {
   font-weight: 800;
   font-size: 25px;
 }
+.sec-title4 {
+  margin-bottom: calc(var(--section-title-space) - 43px);
+  margin-top: 180px;
+  font-weight: 800;
+  font-size: 25px;
+  text-align: start;
+}
 
 .title-area {
   text-align: center; /* Ini sudah memastikan teks di tengah */
@@ -2499,6 +2506,21 @@ textarea.is-invalid {
   font-size: 40px;
   white-space: nowrap;
 }
+.sub-title4{
+  color: var(--theme-color);
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+  position: relative;
+  font-weight: 700;
+  font-family: var(--body-font);
+  display: inline-block;
+  align-items: center;
+  margin-top: 100px;
+  font-size: 40px;
+  white-space: nowrap;
+}
 .sub-title.style2 {
   display: block;
   letter-spacing: 4.2px;
@@ -2512,7 +2534,15 @@ textarea.is-invalid {
   letter-spacing: 4.2px;
   margin-top: -0.4em;
 }
+.sub-title4.style2 {
+  display: block;
+  letter-spacing: 4.2px;
+  margin-top: -0.4em;
+}
 .sub-title2.style2:after {
+  display: none;
+}
+.sub-title4.style2:after {
   display: none;
 }
 
@@ -2625,6 +2655,11 @@ textarea.is-invalid {
     line-height: 1.2;
     margin-top: 10px;
   }
+  .sec-title4 {
+    font-size: 20px;
+    line-height: 1.2;
+    margin-top: 170px;
+  }
   .shadow-text {
     font-size: 100px;
   }
@@ -2645,6 +2680,13 @@ textarea.is-invalid {
     line-height: 1.2;
     margin-top: 10px;
   }
+
+  .sec-title4 {
+    font-size: 20px;
+    line-height: 1.2;
+    margin-top: 170px;
+  }
+
   .title-area.mb-45,
   .sec-title.mb-45 {
     margin-bottom: 36px;
@@ -2680,6 +2722,12 @@ textarea.is-invalid {
     line-height: 1.2;
     margin-top: 10px;
   }
+
+  .sec-title4 {
+    font-size: 20px;
+    line-height: 1.2;
+    margin-top: 170px;
+  }
   .title-area.mb-45,
   .sec-title.mb-45 {
     margin-bottom: 35px;
@@ -2693,6 +2741,10 @@ textarea.is-invalid {
     margin-top: 200px;
   }
   .sub-title2 {
+    white-space: normal; /* Allow breaking into two lines */
+    font-size: 24px; /* Adjust the font size for mobile */
+  }
+  .sub-title4 {
     white-space: normal; /* Allow breaking into two lines */
     font-size: 24px; /* Adjust the font size for mobile */
   }
@@ -2714,6 +2766,11 @@ textarea.is-invalid {
     font-size: 20px;
     line-height: 1.2;
     margin-top: 10px;
+  }
+  .sec-title4 {
+    font-size: 20px;
+    line-height: 1.2;
+    margin-top: 170px;
   }
   .shadow-text {
     font-size: 50px;
@@ -2738,6 +2795,11 @@ textarea.is-invalid {
     font-size: 20px;
     line-height: 1.2;
     margin-top: 10px;
+  }
+  .sec-title4 {
+    font-size: 20px;
+    line-height: 1.2;
+    margin-top: 170px;
   }
 }
 /*------------------- 3.4. Common -------------------*/
@@ -10289,6 +10351,18 @@ span.select2-selection.select2-selection--single:focus {
   display: inline-block;
   position: relative;
 }
+.about-thumb .about-img-3 {
+  margin: 0 30px;
+  display: inline-block;
+  position: relative;
+}
+.about-thumb .about-img-rtl {
+  margin: 0 50px;
+  display: inline-block;
+  position: relative;
+}
+
+
 .about-thumb .about-img-1:before, .about-thumb .about-img-1:after {
   content: "";
   position: absolute;
@@ -10298,7 +10372,37 @@ span.select2-selection.select2-selection--single:focus {
   width: 15px;
   background: var(--theme-color);
 }
+.about-thumb .about-img-3:before, .about-thumb .about-img-3:after {
+  content: "";
+  position: absolute;
+  right: -30px;
+  top: 0;
+  height: 50%;
+  width: 15px;
+  background: var(--theme-color);
+}
+.about-thumb .about-img-rtl:before, .about-thumb .about-img-rtl:after {
+  content: "";
+  position: absolute;
+  right: -30px;
+  top: 0;
+  height: 50%;
+  width: 15px;
+  background: var(--theme-color);
+}
 .about-thumb .about-img-1:after {
+  right: auto;
+  left: -30px;
+  top: auto;
+  bottom: 0;
+}
+.about-thumb .about-img-3:after {
+  right: auto;
+  left: -30px;
+  top: auto;
+  bottom: 0;
+}
+.about-thumb .about-img-rtl:after {
   right: auto;
   left: -30px;
   top: auto;
